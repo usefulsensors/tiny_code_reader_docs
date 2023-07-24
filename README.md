@@ -88,9 +88,9 @@ Once you have the sensor connected and mounted, you’ll want to start reading
 information from it. The code you use to do this will depend on the platform
 you’re using for the main controller device, but [here’s some C example code for
 a Raspberry Pi Pico](https://github.com/usefulsensors/tiny_code_reader_pico_c).
-The 7-bit peripheral address for the sensor is 0x0C. Please note that some systems
-include the read/write bit in the address, making the 8-bit peripheral address 
-0x18 or 0x19.
+The 7-bit peripheral address for the sensor is 0x0C, or 12 in decimal. Please
+note that some systems include the read/write bit in the address, making the 
+8-bit peripheral address 0x18 or 0x19.
 
 ```C
 <TK>
