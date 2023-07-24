@@ -213,7 +213,7 @@ extra padding is introduced.
 typedef struct __attribute__ ((__packed__)) {
     uint16_t content_length;
     uint8_t content_bytes[254]
-} person_sensor_results_t;
+} tiny_code_reader_results_t;
 ```
 
 ### Python Data Format Strings
