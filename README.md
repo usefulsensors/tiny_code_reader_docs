@@ -151,9 +151,13 @@ We have written samples for some of the most popular development platforms.
 
 [github.com/usefulsensors/tiny_code_reader_circuit_python](https://github.com/usefulsensors/tiny_code_reader_circuit_python)
 
+[github.com/usefulsensors/tiny_code_reader_trinkey_keyboard](https://github.com/usefulsensors/tiny_code_reader_trinkey_keyboard)
+
 #### Arduino
 
 #### Raspberry Pi Pico
+
+[github.com/usefulsensors/tiny_code_reader_pico_c](https://github.com/usefulsensors/tiny_code_reader_pico_c)
 
 #### Raspberry Pi
 
