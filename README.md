@@ -93,13 +93,25 @@ note that some systems include the read/write bit in the address, making the
 8-bit peripheral address 0x18 or 0x19.
 
 ```C
-<TK>
+if (!tiny_code_reader_read(&results)) {
+    printf("No code results found on the i2c bus\n");
+    sleep_ms(SAMPLE_DELAY_MS);
+    continue;
+}
+
+if (results.content_length == 0) {
+    printf("No code found\n");
+} else {
+    printf("Found '%s'\n", results.content_bytes);
+}
 ```
 
 This shows how you read data from the peripheral. That data is a 16-bit
 unsigned integer containing the length of the read QR code content, followed by
 the content itself in a 254 byte array. If no QR code has been seen in the last
-scan period, the length will be zero, and so will the content array.
+scan period, the length will be zero, and so will the content array. If the
+length is greater than zero, any bytes after the end of the content will be set
+to zero, guaranteeing a zero-terminated string.
 
 The content will typically be a  UTF-8-encoded Unicode string, but it's not 
 guaranteed to be. As with all user inputs, you should sanitize and escape it 
