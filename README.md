@@ -167,6 +167,8 @@ We have written samples for some of the most popular development platforms.
 
 #### Arduino
 
+[github.com/usefulsensors/tiny_code_reader_arduini](https://github.com/usefulsensors/tiny_code_reader_arduino)
+
 #### Raspberry Pi Pico
 
 [github.com/usefulsensors/tiny_code_reader_pico_c](https://github.com/usefulsensors/tiny_code_reader_pico_c)
