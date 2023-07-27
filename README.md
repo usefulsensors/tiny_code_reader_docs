@@ -33,6 +33,7 @@ integrate a temperature sensor for example, but very little coding is required.
     + [Data Format](#data-format)
     + [C Struct Format](#c-struct-format)
     + [Python Data Format Strings](#python-data-format-strings)
+    + [CAD File](#cad-file)
 
 ## Getting it Working
 
@@ -68,6 +69,7 @@ designed to snap off, in case you need to reduce the size of the board further.
 
 ![Front of sensor](tiny_code_reader_front.svg)![Back of sensor](tiny_code_reader_back.svg)
 
+![Module dimensions](tcr_dimensions.png)
 
 ### Powering Up
 
@@ -245,3 +247,7 @@ TINY_CODE_READER_MESSAGE_SIZE = 254
 TINY_CODE_READER_MESSAGE_FORMAT = "B" * TINY_CODE_READER_MESSAGE_SIZE
 TINY_CODE_READER_I2C_FORMAT = TINY_CODE_READER_LENGTH_FORMAT + TINY_CODE_READER_MESSAGE_FORMAT
 ```
+
+### CAD File
+
+[Here is a STEP file containing a model of the sensor](TCR_STEP.step).
