@@ -34,6 +34,7 @@ integrate a temperature sensor for example, but very little coding is required.
     + [C Struct Format](#c-struct-format)
     + [Python Data Format Strings](#python-data-format-strings)
     + [CAD File](#cad-file)
+    + [Pre-production Modules](#pre-production-modules)
 
 ## Getting it Working
 
@@ -252,3 +253,14 @@ TINY_CODE_READER_I2C_FORMAT = TINY_CODE_READER_LENGTH_FORMAT + TINY_CODE_READER_
 ### CAD File
 
 [Here is a STEP file containing a model of the sensor](TCR_STEP.step).
+
+### Pre-production Modules
+
+Ahead of the full release we have given away a limited number of prototype
+modules with slightly older firmware versions. If you have bought a module,
+then it will be the final release version, but if you have received one of the
+pre-production versions through a contest of giveaway, it should function in a
+very similar way. Here are the differences:
+
+ - The LED will be brighter, and there's no option to disable it.
+ - The 256 byte result structure doesn't contain zeroes after the main message content. The contents are undefined, so you'll need to be careful to take the valid substring rather than decoding and relying on a zero terminator. All of the example code should handle this.
