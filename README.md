@@ -262,5 +262,5 @@ then it will be the final release version, but if you have received one of the
 pre-production versions through a contest of giveaway, it should function in a
 very similar way. Here are the differences:
 
- - The LED will be brighter, and there's no option to disable it.
+ - The LED will be brighter, flashes green instead of blue, and there's no option to disable it.
  - The 256 byte result structure doesn't contain zeroes after the main message content. The contents are undefined, so you'll need to be careful to take the valid substring rather than decoding and relying on a zero terminator. All of the example code should handle this.
