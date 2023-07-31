@@ -30,6 +30,7 @@ integrate a temperature sensor for example, but very little coding is required.
       - [Micro:bit](#microbit)
     + [Community Examples](#community-examples)
   * [Privacy](#privacy)
+  * [Acknowledgements](#acknowledgements)
   * [Appendix](#appendix)
     + [Data Format](#data-format)
     + [C Struct Format](#c-struct-format)
@@ -195,6 +196,7 @@ adding it to this section of the documentation. We also collect maker guides at
 [our Hackster project hub](https://www.hackster.io/useful-sensors/projects).
 
 ## Privacy
+
 This module includes an image sensor, and we want to make sure that this doesn’t
 pose a threat to any of our users’ privacy. We’ve designed the module so that it
 is as resistant as possible to anyone accessing the raw image data, and only the
@@ -212,6 +214,20 @@ this user protection approach.
 
 If you’re interested in learning more about this approach to system design, we
 have a [research paper describing what we call Machine Learning Sensors](https://arxiv.org/pdf/2206.03266.pdf).
+
+## Acknowledgements
+
+This module uses an RP2040 MCU from Raspberry Pi to run the QR code recognition. It's been a great piece of hardware to work with, with more RAM and
+compute than anything else in its class.
+
+We have found the [zxing-cpp](https://github.com/zxing-cpp/zxing-cpp) a very
+well-written and maintained source of information on barcode decoding in general
+and QR codes in particular. Useful Sensors is proud to be a sponsor of the
+project and we encourage anyone who finds these sensors useful to [do so too](https://github.com/sponsors/axxel).
+
+Lee Jackson at [Arducam](https://arducam.com) has been a fantastic help
+sourcing high-quality, low-cost camera modules. If you need imaging solutions
+for your microcontroller projects I highly recommend [talking to him](mailto:admin@arducam.com).
 
 ## Appendix
 
