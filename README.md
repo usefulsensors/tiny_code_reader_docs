@@ -23,6 +23,7 @@ integrate a temperature sensor for example, but very little coding is required.
   * [Example Code](#example-code)
     + [Useful Sensors Examples](#useful-sensors-examples)
       - [CircuitPython](#circuitpython)
+      - [MicroPython](#micropython)
       - [Arduino](#arduino)
       - [Raspberry Pi Pico](#raspberry-pi-pico)
       - [Raspberry Pi](#raspberry-pi)
