@@ -168,6 +168,10 @@ We have written samples for some of the most popular development platforms.
 
 [github.com/usefulsensors/tiny_code_reader_trinkey_keyboard](https://github.com/usefulsensors/tiny_code_reader_trinkey_keyboard)
 
+#### MicroPython
+
+[github.com/usefulsensors/tiny_code_reader_wifi_micropython](https://github.com/usefulsensors/tiny_code_reader_wifi_micropython)
+
 #### Arduino
 
 [github.com/usefulsensors/tiny_code_reader_arduino](https://github.com/usefulsensors/tiny_code_reader_arduino)
