@@ -28,6 +28,7 @@ integrate a temperature sensor for example, but very little coding is required.
       - [Raspberry Pi Pico](#raspberry-pi-pico)
       - [Raspberry Pi](#raspberry-pi)
       - [Micro:bit](#microbit)
+      - [Badger 2040](#badger-2040)
     + [Community Examples](#community-examples)
   * [Privacy](#privacy)
   * [Acknowledgements](#acknowledgements)
