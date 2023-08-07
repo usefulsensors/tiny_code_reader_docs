@@ -36,6 +36,7 @@ integrate a temperature sensor for example, but very little coding is required.
     + [C Struct Format](#c-struct-format)
     + [Python Data Format Strings](#python-data-format-strings)
     + [CAD File](#cad-file)
+    + [Datasheet](#datasheet)
     + [Pre-production Modules](#pre-production-modules)
 
 ## Getting it Working
@@ -274,6 +275,10 @@ TINY_CODE_READER_I2C_FORMAT = TINY_CODE_READER_LENGTH_FORMAT + TINY_CODE_READER_
 ### CAD File
 
 [Here is a STEP file containing a model of the sensor](TCR_STEP.step).
+
+### Datasheet
+
+[Here is a datasheet containing technical specifications for the module](https://usfl.ink/tcr_ds).
 
 ### Pre-production Modules
 
