@@ -189,6 +189,11 @@ We have written samples for some of the most popular development platforms.
 
 [github.com/usefulsensors/tiny_code_reader_micro_bit](https://github.com/usefulsensors/tiny_code_reader_micro_bit)
 
+#### Badger 2040
+
+[github.com/usefulsensors/tiny_code_reader_badger](https://github.com/usefulsensors/tiny_code_reader_badger)
+
+
 ### Community Examples
 
 We also love to feature projects created by makers, so if you'd like to see your
