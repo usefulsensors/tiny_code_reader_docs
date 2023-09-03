@@ -154,7 +154,7 @@ The sensor has approximately a 110 degree field of view.
 
 The model runs about five times a second. The latency is approximately the time
 to perform one model iteration, so roughly 200 milliseconds. There's no
-pin raised raised when a QR code is found, so you will need to keep polling to
+pin raised when a QR code is found, so you will need to keep polling to
 catch recognitions.
 
 This version of the board requires 3.3V input, and consumes about 100 milliwatts
